@@ -1,0 +1,23 @@
+#turtle_left {
+	float: left;
+	border-style: inset;
+	border-color: MediumBlue;
+}
+#cat_right {
+	float: right;
+	border-style: inset;
+	border-color: black;
+}
+.div3 { 
+	background-color: DarkGoldenRod;
+	height: 95px;
+	
+}
+.div4 { 
+	background-color: Magenta;
+	height: 110px;
+	
+}
+.clear-it{
+	clear: both;
+}

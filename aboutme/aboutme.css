@@ -1,0 +1,123 @@
+
+p.title_paragraph {
+	font-size: 1.1em;
+}
+@media screen and (max-width: 480px){
+    p.title_paragraph {
+		font-size: 5vw;		
+	}
+}
+#about_me {
+	background-color: #cebb77;
+}
+
+
+#other_things {
+	background-color: #a0c7ff
+}
+
+
+table {
+	border-collapse: collapse;
+	margin-top: 10px;	
+}
+th, td{
+	text-align: center;
+	padding: 10px;
+}
+caption {
+	margin: 10px;
+	font-size: 1.3em;
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+}	
+#weekly_hours table, #weekly_hours th, #weekly_hours td {
+	border: 1px solid black;
+}
+#weekly_hours th {
+	background-color: #9751e2;
+	color: white;
+}
+#weekly_hours tbody {
+	background-color: #d3abe8;
+}
+#weekly_hours tfoot {
+	background-color: #b692d1; 
+	color: #494949;
+}
+
+#favorite_music table, #favorite_music th, #favorite_music td {
+	border: 1px solid black;
+}
+#favorite_music th {
+	background-color: #4883e2;
+	color: white;
+}
+#favorite_music tbody{
+	background-color: #73a2e2;
+}
+#favorite_music td {
+	
+	border-style: dashed solid;
+	border-color: black;
+	border-width: 1px;
+	
+}
+#favorite_music tr:last-of-type {
+	border-bottom-style: solid;
+	border-width: 1px;
+	
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -40px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#my_schedule table, #my_schedule th, #my_schedule td {
+	border: 1px solid black;
+}
+
+#my_schedule caption { 
+text-align: center;
+}
+#my_schedule th {
+	background-color: #32a35f;
+	color: white;
+}
+#my_schedule tr:nth-child(even) {
+	background-color: #e2e0e0;
+}
+
+
+p.big_first::first-letter {
+    color: black;
+    font-size: x-large;
+}
+img {
+    opacity: 1.0;   
+}
+img:hover {
+    opacity: 0.5;    
+}

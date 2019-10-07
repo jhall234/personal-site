@@ -1,0 +1,38 @@
+#sidebar { 
+	position: fixed;
+	top: 40px;
+	width: 80px;
+	background-color: DarkTurquoise;
+	color: white;
+}
+h1 { 
+	position: relative;
+	left: 100px;
+}
+.not-important{
+	position: absolute;
+	top: 150px;
+	overflow: hidden;
+	background-color: FireBrick;
+	width: 100px;
+	height: 100px;
+	
+}
+.more-important{
+	position: relative;
+	background-color: Magenta;
+	top: 100px;
+	left: 70px;
+	width: 300px;
+	height: 60px;
+	z-index: -1;
+}
+.important {
+	position: absolute;
+	overflow: scroll;
+	background-color: yellow;
+	top: 200px;
+    right: 100px;
+    width: 200px;
+    height: 100px;
+}

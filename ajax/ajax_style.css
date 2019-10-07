@@ -1,0 +1,105 @@
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+th, td {    
+    padding: 8px;
+}
+h2 {
+    text-align: center;
+}
+
+tr {
+    text-align: right;
+    background-color: #e2d7c0 }
+
+th {
+    text-align: center;
+    background-color: #a0855c;
+    color: white;
+}
+
+tr.total {
+    background-color:#998a6c;
+    color: white;
+    font-weight: bold;
+} 
+
+li {
+    margin-top: 8px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+#instrument{
+    width: 43%;
+}
+#instrument_select {
+    margin: 2%;
+}
+#contact_info {
+    margin: 2%;
+}
+#donation_info {
+    margin: 2%;
+}
+#instrumentlist {
+    display: inline;
+}
+#image{
+    margin:5%;
+}
+input {
+    margin: 1%;
+}
+.form_button{
+    font-family: Georgia;
+	border: 2px solid #615744;
+	border-radius: 10px;
+	color: white;
+	background-color:#a0855c;
+	padding: 14px 16px;
+	margin: auto;
+	font-size: 1.1em;
+}
+
+#required_value_text {
+    margin: 5%;
+    display: block;
+}
+
+p.livesearch_result {
+    color: #7c6747;
+    font-size: 0.8em;
+
+}
+
+p.livesearch_result:hover {
+    color: #7c6747;
+    background-color: rgb(238, 229, 107);
+
+}
+
+#livesearch_first{
+    position: absolute;
+    z-index: 1;
+    background-color: white;    
+}
+#livesearch_last{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+#livesearch_email{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
